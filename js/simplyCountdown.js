@@ -17,7 +17,7 @@
             inline: false, //set to true to get an inline basic countdown like : 24 days, 4 hours, 2 minutes, 5 seconds
             inlineClass: 'simply-countdown-inline', //inline css span class in case of inline = true
             // in case of inline set to false
-            enableUtc: true, //Use UTC or not - default : false
+            enableUtc: false, //Use UTC or not - default : false
             onEnd: function() { 
                 //usar funcion para hacer algo cuando termine el contador
                 return; 

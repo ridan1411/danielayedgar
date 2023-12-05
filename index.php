@@ -166,7 +166,7 @@ header#fh5co-header {
                                             <strong>
                                                 <p style="margin-bottom: 0px;"><a style="color: #4f5965;"
                                                         target="_blank"
-                                                        href="https://maps.app.goo.gl/2QLdcXPyaszPT9kU9">Google Maps</a></p>
+                                                        href="https://maps.app.goo.gl/2QLdcXPyaszPT9kU9">Ubicación</a></p>
                                             </strong>
                                         </div>
                                         <div>
@@ -195,7 +195,7 @@ header#fh5co-header {
                                             <strong>
                                                 <p style="margin-bottom: 0px;"><a style="color: #4f5965;"
                                                         target="_blank"
-                                                        href="https://maps.app.goo.gl/3r9oH2x9mBfFZ7eQ6">Google Maps</a></p>
+                                                        href="https://maps.app.goo.gl/3r9oH2x9mBfFZ7eQ6">Ubicación</a></p>
                                             </strong>
                                         </div>
                                         <div>
@@ -321,7 +321,7 @@ header#fh5co-header {
                     <div class="card mb-3 me-1">
                             <div class="text-center">
                                 <div class="card-body">
-                                    <h4 class="card-title"> Evangellina Espinoza Villanueva   </h4>
+                                    <h4 class="card-title"> Evangelina Espinoza Villanueva   </h4>
                                 </div>
                             </div>
                     </div>
@@ -430,7 +430,7 @@ header#fh5co-header {
             <div id="mesaregalos" class="container">
                 <div class="row animate-box">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading" style="margin-bottom: 0px;">
-                        <h2 style="color:#4f5965!important;">Mesa de Regalos</h2>
+                        <h2 style="color:#4f5965!important;">Con tu regalo nuestros sueños se pueden hacer realidad</h2>
                     </div>
                 </div>
 
@@ -443,7 +443,10 @@ header#fh5co-header {
                             <div class="card-body" style="margin-top: 15px;">
                                 
                                 <p class="card-text">
-                                    “No tenemos mesa de regalos pero nos puedes apoyar a tener una maravillosa luna de miel”
+                                    “No contamos con mesa de regalos, pero nos puedes ayudar a tener una maravillosa luna de miel”
+                                </p>
+                                <p>
+                                BANCO: SANTANDER <br> NOMBRE: DANIELA A. ORTIZ SALDANA <br> CLABE: <strong>014320568751597944</strong> <br> CUENTA: <strong>56875159794</strong>
                                 </p>
                             </div>
                         </div>
@@ -485,7 +488,7 @@ header#fh5co-header {
                             <div id="inpName" class="form-group">
                                 <label for="name" class="sr-only">Nombre</label>
                                 <input name="name" type="name" class="form-control" id="name"
-                                    placeholder="Escribe tu nombre aquí y el de tus acompañantes.">
+                                    placeholder="Escribe tu nombre aquí.">
                             </div>
                         </div>
                         <!--div class="col-md-3 col-sm-3">
