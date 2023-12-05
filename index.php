@@ -30,6 +30,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.css">
@@ -76,31 +77,7 @@ header#fh5co-header {
     <div class="fh5co-loader"></div>
 
     <div id="page">
-        <!-- <nav class="fh5co-nav" role="navigation">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-9 col-lg-9 col-xs-2 text-right menu-1">
-                        <ul>
-                            <li class="active"><a class="f11" href="index.php"></a></li> -->
-                            <!--li><a class="f11" href="#">Nuestra Historia</a></li-->
-                            <!--li class="has-dropdown">
-							<a class="f11" >Evento</a>
-							<ul class="dropdown">
-								<li><a class = 'f11' href="#cuandodonde">¿Cuándo? ¿Dónde?</a></li>
-								<li><a class = 'f11' href="#codigovestimenta">Código de Vestimenta</a></li>
-								<li><a class = 'f11' href="#mesaregalos">Mesa de Regalos</a></li>
-								<li><a class = 'f11' href="#hospedajerecomendado">Hospedaje Recomendado</a></li>
-								<li><a class = 'f11' href="#asistencia">Asistencia</a></li>
-							</ul>
-						    </li-->
-                            <!-- <li><a class="f11" href="galeria.php">Galería</a></li> -->
-                        <!-- </ul>
-                    </div>
-                </div>
-            </div>
-        </nav> -->
-     
-        
+             
         <header id="fh5co-header" class="fh5co-cover" role="banner" data-stellar-background-ratio="0.5">
             <div class="overlay"></div>
             <div class="container">
@@ -109,7 +86,7 @@ header#fh5co-header {
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <div class="display-t">
                             <div class="display-tc animate-box texto-novios" data-animate-effect="fadeIn">
-                                <h1 style="font-size: 7vh; margin-bottom: 45px;">Daniela Ortiz Saldaña   <br> &amp; <br> Edgar Espinoza Villanueva</h1>
+                                <h1 style="font-size: 7vh; margin-bottom: 45px; margin-top: 5rem;">Daniela Ortiz Saldaña <br> &amp; <br> Edgar Espinoza Villanueva</h1>
                                 <h2><strong> 10 de Febrero de 2024 </strong></h2>
                                 <div id="cuenta" class="simply-countdown simply-countdown-one mb-5"></div><!-- aqui uno -->
                                 <!--link agenda google calendar-->
@@ -123,33 +100,34 @@ header#fh5co-header {
             </div>
         </header>
         <section class="titulo mb-1">
-            <div style="margin-top: 10px !important; margin-right:10px; margin-left:10px;" class="texto-titulo mt-3 mb-3">
-            <p>Nuestros corazones están unidos desde hace muchos años y nos sentimos preparados para comenzar una vida juntos, 
-                porque ante todo creemos en nuestro amor. <br> Estamos felices de que este día por fin haya llegado y nos gustaría contar con su grata compañía.</p>
+            <div style="margin-top: 10px !important; margin-right:10px; margin-left:10px;" class="texto-titulo mt-3 mb-5">
+            <p style="font-size: 20px;">
+            Hay momentos en la vida que son especiales por si solos. Compartirlos con las personas que quieres los convierte en momentos inolvidables. Gracias por formar parte.
+            </p>
             </div>
         </section>
 
         <!-- Welcome -->
-        <div id="welcome" class="mt-3 mb-3" style="margin-top: 40px;">
+        <div id="welcome" class="mt-3 mb-3" style="margin-top: 110px;">
             <div class="container">
-                <div class="couple-wrap animate-box">
-                    <div class="couple-half">
+                <div class="couple-wrap animate-box row d-flex">
+                    <div class="col couple-half">
                         <div class="groom">
-                            <img src="images/Daniela-Edgar/novioa01.jpg" alt="groom" class="img-responsive">
+                            <img src="images/danielayedgar/ella.jpg" class="img-responsive">
                         </div>
                         <div class="desc-groom">
                             <h3 style="margin-bottom: 0px;">Daniela</h3>
-                            <p>"Amo tu valentía, tu determinación, lo que arriesgas por mí cada día y el amor que me demuestras"</p>
                         </div>
                     </div>
-                    <p class="heart text-center"><i class="icon-heart2"></i></p>
-                    <div class="couple-half">
+                    <p class="heart text-center">
+                        <i class="icon-heart2"></i>
+                    </p>
+                    <div class="col couple-half">
                         <div class="bride">
-                            <img src="images/Daniela-Edgar/novio01.jpg" alt="groom" class="img-responsive">
+                            <img src="images/danielayedgar/el.jpg" alt="groom" class="img-responsive">
                         </div>
                         <div class="desc-bride">
                             <h3 style="margin-bottom: 0px;">Edgar </h3>
-                            <p> "Eres tú y nadie más, Tú, con quien quiero reír, caer y caminar en esta vida" </p>
                         </div>
                     </div>
                 </div>
@@ -167,62 +145,62 @@ header#fh5co-header {
                             <div class="col-md-10">
                                 <div class="col-md-6 col-sm-6 text-center">
                                     <div class="event-wrap animate-box" style="padding: 25px;">
-                                        <span><i style="color: #819269;" class="fas fa-church fa-3x"></i></span>
+                                        <span><i style="color: #ffff;" class="fas fa-church fa-3x"></i></span>
                                         <h3 style="color:black; padding-bottom: 0px !important;">Ceremonia Religiosa
                                         </h3>
                                         <div class="event-col">
                                             <p style="color:black; margin-bottom: 0px;"> Sábado, 10 de Febrero de 2024
                                             </p>
-                                            <p style="color:black;"> 05:00 PM </p>
+                                            <p style="color:black;"> 05:30 PM </p>
                                         </div>
                                         <div>
-                                            <i class="icon-location" style="color:#819269;"></i>
+                                            <i class="icon-location" style="color:#ffff;"></i>
                                         </div>
                                         <div>
-                                            <p style="color:black;  margin-bottom: 0px;">Templo de San José de gracia 
+                                            <p style="color:black;  margin-bottom: 0px;">Maria Reina del Palomar 
                                             </p>
-                                            <p style="color:black;">59500, San José de Gracia, Mich.</p>
+                                            <p style="color:black;">Del Valle de Santana 283, El Palomar, 45640 Palomar, Jal.</p>
                                             <br>
                                         </div>
                                         <div>
                                             <strong>
-                                                <p style="margin-bottom: 0px;"><a style="color: #819269;"
+                                                <p style="margin-bottom: 0px;"><a style="color: #4f5965;"
                                                         target="_blank"
-                                                        href="https://maps.app.goo.gl/iJ3oUXrWwuU4s2sU9">Google Maps</a></p>
+                                                        href="https://maps.app.goo.gl/2QLdcXPyaszPT9kU9">Google Maps</a></p>
                                             </strong>
                                         </div>
                                         <div>
-                                            <strong><a style="color: #819269; cursor: pointer;" data-toggle="modal"
+                                            <strong><a style="color: #4f5965; cursor: pointer;" data-toggle="modal"
                                                     data-target="#parroquiaimg">Foto</a></strong>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6 text-center">
                                     <div class="event-wrap animate-box" style="padding: 25px;">
-                                        <span><i style="color: #819269;" class="fas fa-glass-cheers fa-3x"></i></span>
+                                        <span><i style="color: #ffff;" class="fas fa-glass-cheers fa-3x"></i></span>
                                         <h3 style="color:black; padding-bottom: 0px !important;">Evento</h3>
                                         <div class="event-col">
                                             <p style="color:black; margin-bottom: 0px;"> Sábado, 10 de Febrero de 2024
                                             </p>
-                                            <p style="color:black;"> 06:00 PM </p>
+                                            <p style="color:black;"> 07:30 PM </p>
                                         </div>
                                         <div>
-                                            <i class="icon-location" style="color:#819269;"></i>
+                                            <i class="icon-location" style="color:#ffff;"></i>
                                         </div>
                                         <div>
-                                            <p style="color:black;  margin-bottom: 0px;">Hacienda la Aurora</p>
-                                            <p style="color:black;">La Estacada 59500 Puerto de las Cuevas Mazamitla Jal.</p>
+                                            <p style="color:black;  margin-bottom: 0px;">P.º del Chabacano 23</p>
+                                            <p style="color:black;">Solidaridad, 45580 San Pedro Tlaquepaque, Jal.</p>
                                         </div>
                                         <div>
                                             <strong>
-                                                <p style="margin-bottom: 0px;"><a style="color: #819269;"
+                                                <p style="margin-bottom: 0px;"><a style="color: #4f5965;"
                                                         target="_blank"
-                                                        href="https://maps.app.goo.gl/YZ3RHsbiMTETuEAK6?g_st=ic">Google Maps</a></p>
+                                                        href="https://maps.app.goo.gl/3r9oH2x9mBfFZ7eQ6">Google Maps</a></p>
                                             </strong>
                                         </div>
                                         <div>
                                             <strong>
-                                                <a style="color: #819269; cursor: pointer;" data-toggle="modal"
+                                                <a style="color: #4f5965; cursor: pointer;" data-toggle="modal"
                                                     data-target="#labonitaimg">Foto</a>
                                             </strong>
                                         </div>
@@ -244,7 +222,7 @@ header#fh5co-header {
                             style="margin-bottom: -30px;">
                             <br><br>
                             <p id="margin-none" class="mt-5 mb-1">&nbsp;</p>
-                            <h2 class="d_title" style="font-size: 26px;">Nos Acompañan
+                            <h2 class="d_title" style="font-size: 26px; color:#4f5965 !important;">Nos Acompañan
                             </h2>
                         </div>
                     </div>
@@ -262,14 +240,14 @@ header#fh5co-header {
                     <div class="card mb-2 me-1">
                             <div class="text-center">
                                 <div class="card-body">
-                                    <h4 class="card-title"> Maria beronica Martínez Lomelí </h4>
+                                    <h4 class="card-title"> Martha Alicia Saldaña Anguiano  </h4>
                                 </div>
                             </div>
                     </div>
                             <div class="card mb-2 ms-1">
                                 <div class="text-center">
                                     <div class="card-body">
-                                        <h4 class="card-title"> Juan Carlos Ramírez Torres </h4>
+                                        <h4 class="card-title"> Antonio Ortiz Hernández </h4>
                                     </div>
                                 </div>
                             </div>
@@ -288,19 +266,21 @@ header#fh5co-header {
                     <div class="card mb-3 me-1">
                         <div class="text-center">
                             <div class="card-body">
-                                <h4 class="card-title"> Martha Gallegos Sánchez </h4>
+                                <h4 class="card-title"> Evangelina Villanueva Barajas </h4>
                             </div>
                         </div>
                     </div>
                     <div class="card mb-3 ms-1" >
                         <div class="text-center">
                             <div class="card-body">
-                                <h4 class="card-title"> Salvador Alberto Gómez Villanueva </h4>
+                                <h4 class="card-title"> Benjamín Espinoza Pinto <i class="fas fa-cross"></i> </h4>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <hr>
 
             <div class="container mb-5">
                             <div class="row">
@@ -314,19 +294,47 @@ header#fh5co-header {
                     <div class="card mb-3 me-1">
                             <div class="text-center">
                                 <div class="card-body">
-                                    <h4 class="card-title"> Maria Cecilia Martinez Lomelí  </h4>
+                                    <h4 class="card-title"> Yahayra Lizeth Rojo Saldaña  </h4>
                                 </div>
                             </div>
                     </div>
                             <div class="card mb-3 ms-1">
                                 <div class="text-center">
                                     <div class="card-body">
-                                        <h4 class="card-title"> Martin Contreras  </h4>
+                                        <h4 class="card-title"> Roberto Salvador Robledo Cruz  </h4>
                                     </div>
                                 </div>
                             </div>
                 </div>
             </div>
+
+
+            <div class="container mb-5">
+                            <div class="row">
+                                <div class="row animate-box ">
+                                    <div class="col-md-8 col-md-offset-2 text-center">
+                                        <p class="mb-2" style="font-size: 18px;"><strong>Padrinos de Anillos</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                <div class="row animate-box card-wrap" style="margin-left: 5px; margin-right: 5px;">
+                    <div class="card mb-3 me-1">
+                            <div class="text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title"> Evangellina Espinoza Villanueva   </h4>
+                                </div>
+                            </div>
+                    </div>
+                            <div class="card mb-3 ms-1">
+                                <div class="text-center">
+                                    <div class="card-body">
+                                        <h4 class="card-title"> Javier del Castillo Lobaton  </h4>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+
 
         </div>
     </div>
@@ -334,7 +342,7 @@ header#fh5co-header {
 
 
     <!-- Hospedaje Recomendado-->
-
+    <!--
     <div id="fh5co-testimonial" class="">
         <div id="hospedajerecomendado" class="container">
             <div class="row">
@@ -384,15 +392,15 @@ header#fh5co-header {
             </div>
         </div>
     </div>
-
+    -->
 
     <!-- Dress Code -->
-    <div id="fh5co-services" class="fh5co-section-gray">
+    <div id="fh5co-services" class="fh5co-section-gray" style="background-color: #4f5965;">
         <div id="codigovestimenta" class="container">
 
             <div class="row animate-box">
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading" style='margin-bottom: 5px;'>
-                <h2 class="d_title" style="color: #819269 !important;">Código de Vestimenta</h2>
+                <h2 class="d_title" style="color: #ffff !important;">Código de Vestimenta</h2>
                 </div>
             </div>
 
@@ -400,8 +408,7 @@ header#fh5co-header {
                 <div class="animate-box text-center">
                     <div class="col-md-12">
                         <div>
-                            <h4>Formal</h4>
-                            <p>NOTA: por las noches suele ser un lugar fresco no olvides tu abrigo</p>
+                            <h4 style="color:#ffff">Formal</h4>
                         </div>
                     </div>
                 </div>
@@ -419,26 +426,29 @@ header#fh5co-header {
     </div>
 
     <!-- Mesa de Regalos -->
-    <!-- <div id="fh5co-mesa-regalos" class="" style="margin-bottom: 30px;">
+    <div id="fh5co-mesa-regalos" class="mt-5" style="margin-bottom: 30px;">
             <div id="mesaregalos" class="container">
                 <div class="row animate-box">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading" style="margin-bottom: 0px;">
-                        <h2 style="color:#819269!important;">Mesa de Regalos</h2>
+                        <h2 style="color:#4f5965!important;">Mesa de Regalos</h2>
                     </div>
                 </div>
+
                 <div class="wrap-gift">
                     <div class="card-gift mt-3 text-center animate-box mr-gift">
                         <div class="card">
                             <div>
-                                <img class="img-fluid" src="images/liverpool_logo.png">
+                                <img class="img-fluid" src="images/gift.png">
                             </div>
                             <div class="card-body" style="margin-top: 15px;">
-                                <h5 class="card-title">Liverpool</h5>
-                                <p class="card-text">Número de evento: 12345678</p>
-                                <a target="_blank" href="#" class="btn btn-primary" style="background: #b78e24; border-color: #b78e24; height: 40px;">Regalar</a>
+                                
+                                <p class="card-text">
+                                    “No tenemos mesa de regalos pero nos puedes apoyar a tener una maravillosa luna de miel”
+                                </p>
                             </div>
                         </div>
                     </div>
+                    <!--
                     <div class="card-gift mt-3 text-center animate-box ml-gift">
                         <div class="card">
                             <div>
@@ -449,12 +459,14 @@ header#fh5co-header {
                             </div>
                         </div>
                     </div>
+                    -->
                 </div>
+
             </div>
-        </div> -->
+        </div>
 
     <!-- Aviso -->
-    <div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/galeria/8.jpg);">
+    <div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/asistencia.jpg);">
         <div class="overlay" style="background: rgb(0 0 0 / 76%);"></div>
         <div id="asistencia" class="container">
             <div class="row animate-box">
@@ -462,7 +474,7 @@ header#fh5co-header {
                     
                     <p style="color: white; margin-top: 20px;">Estamos emocionados de celebrar nuestro día especial y nos encantaría contar con su presencia.</p>
                     <p><strong>
-                            <h6 style="color:white;">Confirma tu asistencia antes del 9 de Diciembre 2023.</h6>
+                            <!--<h6 style="color:white;">Confirma tu asistencia antes del 9 de Diciembre 2023.</h6>-->
                         </strong></p>
                 </div>
             </div>
@@ -500,7 +512,7 @@ header#fh5co-header {
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center animate-box">
-                    <h2 class="d_title">Galería</h2>
+                    <h2 class="d_title" style="color: #4e5864 !important;">Galería</h2>
                 </div>
             </div>
             
@@ -512,12 +524,8 @@ header#fh5co-header {
 								
 								?>
                         <li class="one-third animate-box" data-animate-effect="fadeIn"
-                            style="background-image: url(images/Daniela-Edgar/<?php echo $i?>.jpeg); ">
-                            <a data-toggle="modal" data-target="#myModal<?php echo $i ?> ">
-                                <div class="case-studies-summary">
-
-                                    <h2></h2>
-                                </div>
+                            style="background-image: url(images/galeria/<?php echo $i?>.jpg); ">
+                            <a href="images/galeria/<?php echo $i?>.jpg" target="_blank">
                             </a>
                         </li>
                         <div class="modal fade" id="myModal<?php echo $i ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -528,7 +536,7 @@ header#fh5co-header {
                                     <h4 class="modal-title" id="myModalLabel"></h4>
                                 </div>
                                 <div class="modal-body">
-                                <img src="images/Daniela-Edgar/<?php echo $i ?>.jpeg" width="100%" alt="">
+                                <img src="images/galeria/<?php echo $i ?>.jpg" width="100%" alt="">
                                 </div>
                                 </div>
                             </div>
@@ -680,7 +688,7 @@ header#fh5co-header {
                     </button>
                 </div>
                 <div class="modal-body"
-                    style="background-image:url(images/Daniela-Edgar/templo01.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 50vh;">
+                    style="background-image:url(images/ceremonia.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 80vh;">
                 </div>
             </div>
         </div>
@@ -697,7 +705,7 @@ header#fh5co-header {
                     </button>
                 </div>
                 <div class="modal-body"
-                    style="background-image:url(images/Daniela-Edgar/hacienda.jpeg); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 50vh;">
+                    style="background-image:url(images/evento.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 80vh;">
                 </div>
             </div>
         </div>

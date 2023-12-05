@@ -235,6 +235,8 @@
 		var name = $("#name").val();
 		/*var pers = $("#pers").val();*/
 
+		console.log(name);
+
 		if (name == "") {
 			if (name=="") {
 				$("#inpName").addClass('alert-danger');
@@ -246,7 +248,8 @@
 			//El buenas//
 			// window.open('https://api.whatsapp.com/send?phone=5213317025046&text=Me%20interesa%20una%20invitación%20virtual');
 			//window.location.href("mailto:lozaniaevent@gmail.com?subject=Asunto%20con%20espacios&body=Este%20es%20el%20cuerpo%20del%20mensaje");
-			window.location.assign("mailto:lozaniaevent@gmail.com?subject=Confirmación%20de%20asistencia%20a%20la%20boda%20de%20Daniela%20y%20Edgar&body=Nombre%20de%20los%20invitados:%20"+name+"%0dBoda:%20Daniela%20y%20Edgar%0dFecha:%2023/Diciembre/2023");
+			//window.location.assign("mailto:lozaniaevent@gmail.com?subject=Confirmación%20de%20asistencia%20a%20la%20boda%20de%20Daniela%20y%20Edgar&body=Nombre%20de%20los%20invitados:%20"+name+"%0dBoda:%20Daniela%20y%20Edgar%0dFecha:%2023/Diciembre/2023");
+			window.open('https://api.whatsapp.com/send?phone=523314109063&text=Confirmo%20asistencia%20para%20la%20boda%20de%20Daniela%20y%20Edgar%2C%20Asistentes%3A'+name);
 		}
 
 			

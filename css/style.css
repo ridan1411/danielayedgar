@@ -132,7 +132,7 @@ strong {
   width: 100%;
   word-wrap: break-word;
   background-clip: border-box;
-  border: 1px solid rgba(110, 78, 55, 0.5);
+  border: 1px solid rgb(110 78 55 / 16%);
   padding: 10px;
   border-radius: 10px;
 }
@@ -547,7 +547,7 @@ figure {
 
   .fh5co-cover .display-t,
   .fh5co-cover .display-tc {
-    height: 600px;
+    height: 100%;
   }
 
   #fh5co-header-welcome {
@@ -1077,14 +1077,14 @@ figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
 }
 
 .fh5co-social-icons li a {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   /*color: #173b15;*/
   color: #173b15;
   padding-left: 10px;
@@ -1422,7 +1422,7 @@ form label {
   background: #fff;
   padding: 20px;
   /*color: #173b15;*/
-  color: #173b15;
+  color: #bb0f58;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1431,7 +1431,7 @@ form label {
 
 @media screen and (max-width: 768px) {
   .heart {
-    display: none;
+    /*display: none;*/
   }
 }
 
@@ -1448,7 +1448,7 @@ form label {
 
 .couple-half h3 {
   font-family: "Malibu", Arial, serif;
-  color: #819269;
+  color: #4e5864;
   font-size: 50px;
   font-weight: bold;
 }
@@ -1822,7 +1822,7 @@ form label {
 #fh5co-mesa-regalos .btn {
   height: 54px;
   border: none !important;
-  background: #819269 !important;
+  background: #8fb0db !important;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -2452,7 +2452,7 @@ form label {
 
 .titulo {
   height: 10vh;
-  background-color: #faf5f5;
+  background-color: #f5f6f1;
   text-align: center;
 }
 
@@ -2732,3 +2732,10 @@ form label {
   margin: 30px auto;
 }
 
+.d-flex{
+  display: inline-flex;
+}
+
+.fh5co-services{
+  background-color: rgba(218, 215, 210, 1);
+}
